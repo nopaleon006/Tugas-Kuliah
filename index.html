@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Tata Surya AR.js - Rivale Belano - 23201253</title>
+    <title>Planet AR.js - Naufal Maziz Al Fayyad - 23201231/R</title>
     <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
     <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
     <style>
@@ -15,7 +15,7 @@
 
         <a-marker preset="hiro">
             <a-entity
-                gltf-model="sun.glb"
+                gltf-model="planet_one.glb"
                 scale="0.06 0.06 0.06" position="0 0 0"
                 rotation="0 0 0"
                 animation="property: rotation; to: 0 360 0; loop: true; dur: 20000; easing: linear;">
@@ -24,7 +24,7 @@
             <a-entity
                 id="earth-orbit-pivot"
                 position="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 5000; easing: linear;"> <a-entity
-                    gltf-model="earth.glb"
+                    gltf-model="planet_proxima.glb"
                     scale="0.2 0.2 0.2" position="1.5 0 0"  rotation="0 0 0"
                     animation__rotate="property: rotation; to: 0 360 0; loop: true; dur: 15000; easing: linear;"> </a-entity>
             </a-entity>
@@ -32,7 +32,7 @@
             <a-entity
                 id="mars-orbit-pivot"
                 position="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 9400; easing: linear;"> <a-entity
-                    gltf-model="jupiter.glb"
+                    gltf-model="planet_wise.glb"
                     scale="0.2 0.2 0.2" position="2.5 0 0"  rotation="0 0 0"
                     animation__rotate="property: rotation; to: 0 360 0; loop: true; dur: 15400; easing: linear;"> </a-entity>
             </a-entity>
